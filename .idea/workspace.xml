@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16ca385b-33bf-4b22-99e1-f7fcb5931a55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/exemplos-externos/pointer/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exemplos-externos/struct-demo/01/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exemplos-externos/struct-demo/02-methods/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exemplos-externos/main.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,27 +62,19 @@
       <recent name="$PROJECT_DIR$/aulas" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/exemplos-externos/struct-demo/01" />
       <recent name="$PROJECT_DIR$/03-context/01-withTimeout" />
       <recent name="$PROJECT_DIR$/02-pacotes-importantes" />
       <recent name="$PROJECT_DIR$/aulas/21-pacotes-01/matematica" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build go-fc/exemplos-externos/pointer">
+  <component name="RunManager" selected="Go Build.go build go-fc/exemplos-externos/struct-demo/02-methods">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-fc" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go-fc/03-context/02-server-HTTP" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-fc" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go-fc/03-context/02-server-HTTP" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/03-context/02-server-HTTP/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go-fc/04-banco-dados/02-CRUD" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -89,15 +84,6 @@
       <package value="go-fc/04-banco-dados/02-CRUD" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/04-banco-dados/02-CRUD/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go-fc/04-banco-dados/02" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-fc" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go-fc/04-banco-dados/02" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/04-banco-dados/02/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go-fc/exemplos-externos/master-go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -118,6 +104,24 @@
       <filePath value="$PROJECT_DIR$/exemplos-externos/pointer/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build go-fc/exemplos-externos/struct-demo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-fc" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go-fc/exemplos-externos/struct-demo" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/exemplos-externos/struct-demo/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go-fc/exemplos-externos/struct-demo/02-methods" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-fc" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go-fc/exemplos-externos/struct-demo/02-methods" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/exemplos-externos/struct-demo/02-methods/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="go-fc" />
       <working_directory value="$PROJECT_DIR$" />
@@ -129,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go-fc/exemplos-externos/struct-demo/02-methods" />
+        <item itemvalue="Go Build.go build go-fc/exemplos-externos/struct-demo" />
         <item itemvalue="Go Build.go build go-fc/exemplos-externos/pointer" />
         <item itemvalue="Go Build.go build go-fc/exemplos-externos/master-go" />
         <item itemvalue="Go Build.go build go-fc/04-banco-dados/02-CRUD" />
-        <item itemvalue="Go Build.go build go-fc/04-banco-dados/02" />
-        <item itemvalue="Go Build.go build go-fc/03-context/02-server-HTTP" />
       </list>
     </recent_temporary>
   </component>
