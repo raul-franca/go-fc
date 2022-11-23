@@ -28,7 +28,7 @@ func main() {
 	}
 	defer db.Close()
 
-	product := NewProduct("Livr", 40.90)
+	product := NewProduct("Livro", 40.90)
 	err = insertProduct(db, product)
 	if err != nil {
 		panic(err)
@@ -46,10 +46,10 @@ func main() {
 
 		fmt.Printf("O produto %v, custa: %0.2f \n", p.Name, p.Price)
 	}
-	err = deleteProduct(db, product.ID)
-	if err != nil {
-		panic(err)
-	}
+	//err = deleteProduct(db, product.ID)
+	//if err != nil {
+	//	panic(err)
+	//}
 }
 
 func insertProduct(db *sql.DB, p *Product) error {
@@ -97,6 +97,7 @@ func selectAllProducts(db *sql.DB) ([]Product, error) {
 		return nil, err
 	}
 	defer rows.Close()
+
 	var products []Product
 	for rows.Next() {
 		var p Product

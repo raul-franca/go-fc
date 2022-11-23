@@ -5,4 +5,4 @@ mysql from dockers
     mysql -u root -p goexpert
         senha: root
 
-     create table products (id varchar(255), name varchar(80), price decimal(10,2) primary key(id))
+      create table products (`id` varchar(255) not null , `name` varchar(80), `price` decimal(10,2), primary key(`id`));

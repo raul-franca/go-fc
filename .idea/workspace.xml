@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16ca385b-33bf-4b22-99e1-f7fcb5931a55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/exemplos-externos/struct-demo/01/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemplos-externos/struct-demo/02-methods/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-banco-dados/03-gorm/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exemplos-externos/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-banco-dados/02-CRUD/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/04-banco-dados/02-CRUD/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmd.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="HTML File" />
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -37,23 +39,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go Application&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/raulfranca/projetos/go-fc/04-banco-dados&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;IntelliLang.Configuration&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "/Users/raulfranca/projetos/go-fc/04-banco-dados",
+    "settings.editor.selected.configurable": "IntelliLang.Configuration"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/04-banco-dados" />
@@ -68,15 +70,7 @@
       <recent name="$PROJECT_DIR$/aulas/21-pacotes-01/matematica" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build go-fc/exemplos-externos/struct-demo/02-methods">
-    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="go-fc" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build go-fc/04-banco-dados/03-gorm">
     <configuration name="go build go-fc/04-banco-dados/02-CRUD" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-fc" />
       <working_directory value="$PROJECT_DIR$" />
@@ -86,22 +80,22 @@
       <filePath value="$PROJECT_DIR$/04-banco-dados/02-CRUD/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-fc/exemplos-externos/master-go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go-fc/04-banco-dados/03-gorm" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-fc" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go-fc/exemplos-externos/master-go" />
+      <package value="go-fc/04-banco-dados/03-gorm" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/exemplos-externos/master-go/main.go" />
+      <filePath value="$PROJECT_DIR$/04-banco-dados/03-gorm/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-fc/exemplos-externos/pointer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go-fc/exemplos-externos/arguments-parse" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-fc" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go-fc/exemplos-externos/pointer" />
+      <package value="go-fc/exemplos-externos/arguments-parse" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/exemplos-externos/pointer/main.go" />
+      <filePath value="$PROJECT_DIR$/exemplos-externos/arguments-parse/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go-fc/exemplos-externos/struct-demo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -122,22 +116,13 @@
       <filePath value="$PROJECT_DIR$/exemplos-externos/struct-demo/02-methods/main.go" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="go-fc" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="DIRECTORY" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go-fc/04-banco-dados/03-gorm" />
+        <item itemvalue="Go Build.go build go-fc/04-banco-dados/02-CRUD" />
+        <item itemvalue="Go Build.go build go-fc/exemplos-externos/arguments-parse" />
         <item itemvalue="Go Build.go build go-fc/exemplos-externos/struct-demo/02-methods" />
         <item itemvalue="Go Build.go build go-fc/exemplos-externos/struct-demo" />
-        <item itemvalue="Go Build.go build go-fc/exemplos-externos/pointer" />
-        <item itemvalue="Go Build.go build go-fc/exemplos-externos/master-go" />
-        <item itemvalue="Go Build.go build go-fc/04-banco-dados/02-CRUD" />
       </list>
     </recent_temporary>
   </component>
