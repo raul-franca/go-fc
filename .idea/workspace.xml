@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16ca385b-33bf-4b22-99e1-f7fcb5931a55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/05-packaging/02-private-public/cmd/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-packaging/02-private-public/math.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exemplos-externos/list-IP-address/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Go Application" />
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -38,7 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
+    "DefaultGoTemplateProperty": "Go Application",
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -68,7 +67,7 @@
       <recent name="$PROJECT_DIR$/aulas/21-pacotes-01/matematica" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build go-fc/05-packaging/02-private-public/cmd">
+  <component name="RunManager" selected="Go Build.go build go-fc/exemplos-externos/list-IP-address">
     <configuration name="go build go-fc/04-banco-dados/02-CRUD" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-fc" />
       <working_directory value="$PROJECT_DIR$" />
@@ -105,22 +104,22 @@
       <filePath value="$PROJECT_DIR$/05-packaging/02-private-public/cmd/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-fc/exemplos-externos/arguments-parse" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go-fc/exemplos-externos/list-IP-address" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-fc" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go-fc/exemplos-externos/arguments-parse" />
+      <package value="go-fc/exemplos-externos/list-IP-address" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/exemplos-externos/arguments-parse/main.go" />
+      <filePath value="$PROJECT_DIR$/exemplos-externos/list-IP-address/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go-fc/exemplos-externos/list-IP-address" />
         <item itemvalue="Go Build.go build go-fc/05-packaging/02-private-public/cmd" />
         <item itemvalue="Go Build.go build go-fc/05-packaging/01-math/cmd" />
         <item itemvalue="Go Build.go build go-fc/04-banco-dados/03-gorm" />
         <item itemvalue="Go Build.go build go-fc/04-banco-dados/02-CRUD" />
-        <item itemvalue="Go Build.go build go-fc/exemplos-externos/arguments-parse" />
       </list>
     </recent_temporary>
   </component>
