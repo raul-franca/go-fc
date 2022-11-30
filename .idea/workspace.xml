@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16ca385b-33bf-4b22-99e1-f7fcb5931a55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/exemplos-externos/list-IP-address/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exemplos-externos/error-handler/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,23 +67,14 @@
       <recent name="$PROJECT_DIR$/aulas/21-pacotes-01/matematica" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build go-fc/exemplos-externos/list-IP-address">
-    <configuration name="go build go-fc/04-banco-dados/02-CRUD" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build go-fc/exemplos-externos/error-handler">
+    <configuration name="go build go-fc/01-fundaca/10-closure" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-fc" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go-fc/04-banco-dados/02-CRUD" />
+      <kind value="FILE" />
+      <package value="go-fc/01-fundaca/10-closure" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/04-banco-dados/02-CRUD/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go-fc/04-banco-dados/03-gorm" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-fc" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go-fc/04-banco-dados/03-gorm" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/04-banco-dados/03-gorm/main.go" />
+      <filePath value="$PROJECT_DIR$/01-fundaca/10-closure/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go-fc/05-packaging/01-math/cmd" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -104,6 +95,15 @@
       <filePath value="$PROJECT_DIR$/05-packaging/02-private-public/cmd/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build go-fc/exemplos-externos/error-handler" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-fc" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go-fc/exemplos-externos/error-handler" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/exemplos-externos/error-handler/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build go-fc/exemplos-externos/list-IP-address" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-fc" />
       <working_directory value="$PROJECT_DIR$" />
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build go-fc/exemplos-externos/error-handler" />
+        <item itemvalue="Go Build.go build go-fc/01-fundaca/10-closure" />
         <item itemvalue="Go Build.go build go-fc/exemplos-externos/list-IP-address" />
         <item itemvalue="Go Build.go build go-fc/05-packaging/02-private-public/cmd" />
         <item itemvalue="Go Build.go build go-fc/05-packaging/01-math/cmd" />
-        <item itemvalue="Go Build.go build go-fc/04-banco-dados/03-gorm" />
-        <item itemvalue="Go Build.go build go-fc/04-banco-dados/02-CRUD" />
       </list>
     </recent_temporary>
   </component>
