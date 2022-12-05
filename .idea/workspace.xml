@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16ca385b-33bf-4b22-99e1-f7fcb5931a55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/exemplos-externos/error-handler/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-testing/01/tax.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-testing/01/tax_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-fundaca/05/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/01-fundaca/05-percorrendo-arrays/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-fundaca/08/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/01-fundaca/08-funcoes/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-fundaca/09/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/01-fundaca/09-funcoes-variádicas/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-fundaca/25-for/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/01-fundaca/25-for/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Go File" />
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -35,23 +40,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go Application",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/Users/raulfranca/projetos/go-fc/05-packaging",
-    "settings.editor.selected.configurable": "IntelliLang.Configuration"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/raulfranca/projetos/go-fc/05-packaging&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;IntelliLang.Configuration&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/05-packaging" />
@@ -67,59 +72,75 @@
       <recent name="$PROJECT_DIR$/aulas/21-pacotes-01/matematica" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build go-fc/exemplos-externos/error-handler">
-    <configuration name="go build go-fc/01-fundaca/10-closure" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestCalulateTaxBatch in go-fc/06-testing/01">
+    <configuration name="BenchmarkCalulateTax in go-fc/06-testing/01" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-fc" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="go-fc/01-fundaca/10-closure" />
+      <working_directory value="$PROJECT_DIR$/06-testing/01" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go-fc/06-testing/01" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01-fundaca/10-closure/main.go" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gobench" />
+      <pattern value="^\QBenchmarkCalulateTax\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-fc/05-packaging/01-math/cmd" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="BenchmarkCalulateTax2 in go-fc/06-testing/01" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-fc" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/06-testing/01" />
+      <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go-fc/05-packaging/01-math/cmd" />
+      <package value="go-fc/06-testing/01" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05-packaging/01-math/cmd/main.go" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gobench" />
+      <pattern value="^\QBenchmarkCalulateTax2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-fc/05-packaging/02-private-public/cmd" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCalulateTaxBatch in go-fc/06-testing/01" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-fc" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/06-testing/01" />
+      <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go-fc/05-packaging/02-private-public/cmd" />
+      <package value="go-fc/06-testing/01" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/05-packaging/02-private-public/cmd/main.go" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCalulateTaxBatch\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-fc/exemplos-externos/error-handler" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCaluleteTaxBatch in go-fc/06-testing/01" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-fc" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/06-testing/01" />
+      <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go-fc/exemplos-externos/error-handler" />
+      <package value="go-fc/06-testing/01" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/exemplos-externos/error-handler/main.go" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCaluleteTaxBatch\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-fc/exemplos-externos/list-IP-address" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go test FuzzCalculateTax in go-fc/06-testing/01" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-fc" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/06-testing/01" />
+      <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go-fc/exemplos-externos/list-IP-address" />
+      <package value="go-fc/06-testing/01" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/exemplos-externos/list-IP-address/main.go" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QFuzzCalculateTax\E$" />
+      <test_name_prefix value="go test " />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build go-fc/exemplos-externos/error-handler" />
-        <item itemvalue="Go Build.go build go-fc/01-fundaca/10-closure" />
-        <item itemvalue="Go Build.go build go-fc/exemplos-externos/list-IP-address" />
-        <item itemvalue="Go Build.go build go-fc/05-packaging/02-private-public/cmd" />
-        <item itemvalue="Go Build.go build go-fc/05-packaging/01-math/cmd" />
+        <item itemvalue="Go Test.TestCalulateTaxBatch in go-fc/06-testing/01" />
+        <item itemvalue="Go Test.BenchmarkCalulateTax in go-fc/06-testing/01" />
+        <item itemvalue="Go Test.BenchmarkCalulateTax2 in go-fc/06-testing/01" />
+        <item itemvalue="Go Test.go test FuzzCalculateTax in go-fc/06-testing/01" />
+        <item itemvalue="Go Test.TestCaluleteTaxBatch in go-fc/06-testing/01" />
       </list>
     </recent_temporary>
   </component>

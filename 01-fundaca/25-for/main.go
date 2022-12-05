@@ -26,7 +26,7 @@ func main() {
 		i++
 	}
 
-	println("ex: 05 loop infinito")
+	println("ex: 05-percorrendo-arrays loop infinito")
 	println("for { ... }")
 	// funciona e é permitido no Go
 	//for {
