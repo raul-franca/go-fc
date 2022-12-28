@@ -16,7 +16,9 @@ type Record struct {
 }
 
 func main() {
-	A := Record{"uma string", 10, Secret{"raul", "franca"}}
+	A := Record{"uma string",
+		10,
+		Secret{"raul", "franca"}}
 	r := reflect.ValueOf(A)
 	fmt.Printf("valor str: %v\n", r.String())
 	iType := r.Type()
