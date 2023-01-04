@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16ca385b-33bf-4b22-99e1-f7fcb5931a55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/exemplos-externos/closure/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-multithreading/01-go-routines/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-multithreading/02-wait-groups/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-multithreading/03-concorrencia-mundo-real/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-multithreading/04-concorrencia-mundo-real-solucao/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-multithreading/05-channels/01-hello/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-multithreading/05-channels/02-forever/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-multithreading/05-channels/03-range/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-multithreading/05-channels/04-range-with-wait-groups/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-multithreading/06-directions/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-multithreading/07-load-balancer/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-multithreading/08-select/01/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-multithreading/08-select/02/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-multithreading/09-buffers/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exemplos-externos/error-handler/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/exemplos-externos/error-handler/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exemplos-externos/master-go/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/exemplos-externos/master-go/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Go File" />
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -37,97 +47,94 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go Application&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/raulfranca/projetos/go-fc/05-packaging&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;IntelliLang.Configuration&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "/Users/raulfranca/projetos/go-fc/07-multithreading/05-channels",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "IntelliLang.Configuration"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/07-multithreading/05-channels" />
+      <recent name="$PROJECT_DIR$/07-multithreading" />
+      <recent name="$PROJECT_DIR$/07-multithreading/wait-groups" />
       <recent name="$PROJECT_DIR$/05-packaging" />
       <recent name="$PROJECT_DIR$/04-banco-dados" />
-      <recent name="$PROJECT_DIR$/02-pacotes-importantes" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/aulas" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/07-multithreading/08-select/01" />
       <recent name="$PROJECT_DIR$/exemplos-externos/struct-demo/01" />
       <recent name="$PROJECT_DIR$/03-context/01-withTimeout" />
       <recent name="$PROJECT_DIR$/02-pacotes-importantes" />
       <recent name="$PROJECT_DIR$/aulas/21-pacotes-01/matematica" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build go-fc/exemplos-externos/error-handler">
-    <configuration name="go build go-fc/exemplos-externos/closure" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build go-fc/07-multithreading/08-select/02">
+    <configuration name="go build go-fc/07-multithreading/05-channels/03-range" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-fc" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go-fc/exemplos-externos/closure" />
+      <package value="go-fc/07-multithreading/05-channels/03-range" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/exemplos-externos/closure/main.go" />
+      <filePath value="$PROJECT_DIR$/07-multithreading/05-channels/03-range/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-fc/exemplos-externos/error-handler" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go-fc/07-multithreading/06-directions" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-fc" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go-fc/exemplos-externos/error-handler" />
+      <package value="go-fc/07-multithreading/06-directions" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/exemplos-externos/error-handler/main.go" />
+      <filePath value="$PROJECT_DIR$/07-multithreading/06-directions/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-fc/exemplos-externos/list-IP-address" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go-fc/07-multithreading/07-load-balancer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-fc" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go-fc/exemplos-externos/list-IP-address" />
+      <package value="go-fc/07-multithreading/07-load-balancer" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/exemplos-externos/list-IP-address/main.go" />
+      <filePath value="$PROJECT_DIR$/07-multithreading/07-load-balancer/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-fc/exemplos-externos/master-go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go-fc/07-multithreading/08-select/01" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-fc" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go-fc/exemplos-externos/master-go" />
+      <package value="go-fc/07-multithreading/08-select/01" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/exemplos-externos/master-go/main.go" />
+      <filePath value="$PROJECT_DIR$/07-multithreading/08-select/01/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go test FuzzCalculateTax in go-fc/06-testing/01" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go-fc/07-multithreading/08-select/02" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-fc" />
-      <working_directory value="$PROJECT_DIR$/06-testing/01" />
-      <root_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go-fc/06-testing/01" />
+      <package value="go-fc/07-multithreading/08-select/02" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QFuzzCalculateTax\E$" />
-      <test_name_prefix value="go test " />
+      <filePath value="$PROJECT_DIR$/07-multithreading/08-select/02/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build go-fc/exemplos-externos/error-handler" />
-        <item itemvalue="Go Build.go build go-fc/exemplos-externos/list-IP-address" />
-        <item itemvalue="Go Build.go build go-fc/exemplos-externos/master-go" />
-        <item itemvalue="Go Build.go build go-fc/exemplos-externos/closure" />
-        <item itemvalue="Go Test.go test FuzzCalculateTax in go-fc/06-testing/01" />
+        <item itemvalue="Go Build.go build go-fc/07-multithreading/08-select/02" />
+        <item itemvalue="Go Build.go build go-fc/07-multithreading/08-select/01" />
+        <item itemvalue="Go Build.go build go-fc/07-multithreading/07-load-balancer" />
+        <item itemvalue="Go Build.go build go-fc/07-multithreading/06-directions" />
+        <item itemvalue="Go Build.go build go-fc/07-multithreading/05-channels/03-range" />
       </list>
     </recent_temporary>
   </component>
