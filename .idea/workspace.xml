@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16ca385b-33bf-4b22-99e1-f7fcb5931a55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/07-multithreading/01-go-routines/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-multithreading/02-wait-groups/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-multithreading/03-concorrencia-mundo-real/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-multithreading/04-concorrencia-mundo-real-solucao/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-multithreading/05-channels/01-hello/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-multithreading/05-channels/02-forever/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-multithreading/05-channels/03-range/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-multithreading/05-channels/04-range-with-wait-groups/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-multithreading/06-directions/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-multithreading/07-load-balancer/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-multithreading/08-select/01/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-multithreading/08-select/02/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-multithreading/09-buffers/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-eventos/pkg/events/event_dispacher.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-eventos/pkg/events/interfaces.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,25 +36,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "go.import.settings.migrated": "true",
-    "last_opened_file_path": "/Users/raulfranca/projetos/go-fc/07-multithreading/05-channels",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "IntelliLang.Configuration"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/raulfranca/projetos/go-fc/07-multithreading/05-channels&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;IntelliLang.Configuration&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/07-multithreading/05-channels" />
