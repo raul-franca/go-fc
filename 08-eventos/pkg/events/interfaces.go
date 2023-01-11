@@ -1,6 +1,7 @@
 package events
 
 import (
+	"sync"
 	"time"
 )
 
@@ -10,20 +11,19 @@ import (
 //Registrar os eventos e suas operações
 //Despachar / Fire no evento para suas operações sejam executadas
 
-// EventeInterface Evento (Carregar dados)
-type EventeInterface interface {
+type EventInterface interface {
 	GetName() string
-	GetDataTime() time.Time
-	GetPayLoad() interface{} // dados do evento
+	GetDateTime() time.Time
+	GetPayload() interface{}
 }
 
 type EventHandlerInterface interface {
-	Handle(event EventeInterface)
+	Handle(event EventInterface, wg *sync.WaitGroup)
 }
 
-type EventDispacherInterface interface {
+type EventDispatcherInterface interface {
 	Register(eventName string, handler EventHandlerInterface) error
-	Dispacher(event EventeInterface) error
+	Dispatch(event EventInterface) error
 	Remove(eventName string, handler EventHandlerInterface) error
 	Has(eventName string, handler EventHandlerInterface) bool
 	Clear() error

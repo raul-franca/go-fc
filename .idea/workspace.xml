@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16ca385b-33bf-4b22-99e1-f7fcb5931a55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/08-eventos/pkg/events/event_dispacher.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-eventos/pkg/events/interfaces.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-eventos/pkg/events/event_dispacher.go" beforeDir="false" afterPath="$PROJECT_DIR$/08-eventos/pkg/events/event_dispacher.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-eventos/pkg/events/event_dispacher_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/08-eventos/pkg/events/event_dispacher_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-eventos/pkg/events/interfaces.go" beforeDir="false" afterPath="$PROJECT_DIR$/08-eventos/pkg/events/interfaces.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,32 +74,23 @@
       <recent name="$PROJECT_DIR$/aulas/21-pacotes-01/matematica" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build go-fc/07-multithreading/08-select/02">
-    <configuration name="go build go-fc/07-multithreading/05-channels/03-range" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestSuite in go-fc/08-eventos/pkg/events">
+    <configuration name="go build go-fc/01-fundaca/09-funcoes-variadicas" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-fc" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go-fc/07-multithreading/05-channels/03-range" />
+      <package value="go-fc/01-fundaca/09-funcoes-variadicas" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/07-multithreading/05-channels/03-range/main.go" />
+      <filePath value="$PROJECT_DIR$/01-fundaca/09-funcoes-variadicas/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-fc/07-multithreading/06-directions" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go-fc/01-fundaca/09-funcoes-variádicas" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-fc" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go-fc/07-multithreading/06-directions" />
+      <package value="go-fc/01-fundaca/09-funcoes-variádicas" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/07-multithreading/06-directions/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go-fc/07-multithreading/07-load-balancer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-fc" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go-fc/07-multithreading/07-load-balancer" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/07-multithreading/07-load-balancer/main.go" />
+      <filePath value="$PROJECT_DIR$/01-fundaca/09-funcoes-variádicas/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build go-fc/07-multithreading/08-select/01" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -117,13 +111,25 @@
       <filePath value="$PROJECT_DIR$/07-multithreading/08-select/02/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="TestSuite in go-fc/08-eventos/pkg/events" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-fc" />
+      <working_directory value="$PROJECT_DIR$/08-eventos/pkg/events" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="go-fc/08-eventos/pkg/events" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestSuite\E$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestSuite in go-fc/08-eventos/pkg/events" />
+        <item itemvalue="Go Build.go build go-fc/01-fundaca/09-funcoes-variadicas" />
+        <item itemvalue="Go Build.go build go-fc/01-fundaca/09-funcoes-variádicas" />
         <item itemvalue="Go Build.go build go-fc/07-multithreading/08-select/02" />
         <item itemvalue="Go Build.go build go-fc/07-multithreading/08-select/01" />
-        <item itemvalue="Go Build.go build go-fc/07-multithreading/07-load-balancer" />
-        <item itemvalue="Go Build.go build go-fc/07-multithreading/06-directions" />
-        <item itemvalue="Go Build.go build go-fc/07-multithreading/05-channels/03-range" />
       </list>
     </recent_temporary>
   </component>
