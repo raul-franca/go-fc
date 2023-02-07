@@ -5,22 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16ca385b-33bf-4b22-99e1-f7fcb5931a55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/08-eventos/cmd.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-eventos/cmd/consumer/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-eventos/cmd/producer/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-eventos/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-eventos/rabbitMQ/rabbitMQ.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-fundaca/21-pacotes-01/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/01-fundaca/21-pacotes-01/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01-fundaca/23-pacotes-03/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/01-fundaca/23-pacotes-03/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-pacotes-importantes/05-busca-CEP/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-pacotes-importantes/05-busca-CEP/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-banco-dados/01/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/04-banco-dados/01/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/05-packaging/01-math/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/05-packaging/01-math/cmd/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/05-packaging/02-private-public/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/05-packaging/02-private-public/cmd/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-eventos/pkg/events/event_dispacher.go" beforeDir="false" afterPath="$PROJECT_DIR$/08-eventos/pkg/events/event_dispatcher.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-eventos/pkg/events/event_dispacher_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/08-eventos/pkg/events/event_dispatcher_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-eventos/cmd/consumer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/08-eventos/cmd/consumer/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-eventos/cmd/producer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/08-eventos/cmd/producer/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

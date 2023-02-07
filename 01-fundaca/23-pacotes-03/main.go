@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/go-fc/01-fundaca/21-pacotes-01/matematica"
+	"github.com/raul-franca/go-fc/01-fundaca/21-pacotes-01/matematica"
 )
 
 func main() {

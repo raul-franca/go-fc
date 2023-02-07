@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	math "github.com/go-fc/05-packaging/01-math"
+	math "github.com/raul-franca/go-fc/05-packaging/01-math"
 )
 
 func main() {

@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/go-fc/08-eventos/rabbitMQ"
 	amqp "github.com/rabbitmq/amqp091-go"
+	"github.com/raul-franca/go-fc/08-eventos/rabbitMQ"
 )
 
 func main() {

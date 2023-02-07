@@ -1,4 +1,4 @@
-module github.com/go-fc
+module github.com/raul-franca/go-fc
 
 go 1.19
 
