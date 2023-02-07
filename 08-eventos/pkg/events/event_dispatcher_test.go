@@ -10,12 +10,6 @@ import (
 	"github.com/stretchr/testify/suite"
 )
 
-// test gitHub
-// dkdkdkdkdkdkdkdk
-type git_test struct {
-	name string
-}
-
 type TestEvent struct {
 	Name    string
 	Payload interface{}
@@ -147,6 +141,9 @@ func (suite *EventDispatcherTestSuite) TestEventDispatcher_Remove() {
 	suite.eventDispatcher.Remove(suite.event2.GetName(), &suite.handler3)
 	suite.Equal(0, len(suite.eventDispatcher.handlers[suite.event2.GetName()]))
 
+	err = suite.eventDispatcher.Remove("test4", &suite.handler)
+	suite.Error(err, ErrHandlerNameNotFound)
+
 }
 
 type MockHandler struct {
@@ -155,7 +152,7 @@ type MockHandler struct {
 
 func (m *MockHandler) Handle(event EventInterface, wg *sync.WaitGroup) {
 	m.Called(event)
-	wg.Done()
+	wg.Done() //Retira o evento do WaitGroup!!
 }
 
 func (suite *EventDispatcherTestSuite) TestEventDispatch_Dispatch() {

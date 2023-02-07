@@ -1,10 +1,11 @@
-module go-fc
+module github.com/go-fc
 
 go 1.19
 
 require (
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/google/uuid v1.3.0
+	github.com/rabbitmq/amqp091-go v1.6.1
 	github.com/stretchr/testify v1.8.1
 	gorm.io/driver/mysql v1.4.4
 	gorm.io/gorm v1.24.2

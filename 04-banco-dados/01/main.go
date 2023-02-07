@@ -1,7 +1,7 @@
 package main
 
 import "github.com/google/uuid"
-//_ "github.com/go-sql-driver/mysql"
+
 type Product struct {
 	ID    string
 	Name  string

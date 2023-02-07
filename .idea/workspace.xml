@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16ca385b-33bf-4b22-99e1-f7fcb5931a55" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/08-eventos/cmd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-eventos/cmd/consumer/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-eventos/cmd/producer/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-eventos/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-eventos/rabbitMQ/rabbitMQ.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-eventos/pkg/events/event_dispacher.go" beforeDir="false" afterPath="$PROJECT_DIR$/08-eventos/pkg/events/event_dispacher.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-eventos/pkg/events/event_dispacher_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/08-eventos/pkg/events/event_dispacher_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-eventos/pkg/events/interfaces.go" beforeDir="false" afterPath="$PROJECT_DIR$/08-eventos/pkg/events/interfaces.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-fundaca/21-pacotes-01/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/01-fundaca/21-pacotes-01/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-fundaca/23-pacotes-03/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/01-fundaca/23-pacotes-03/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-pacotes-importantes/05-busca-CEP/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/02-pacotes-importantes/05-busca-CEP/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-banco-dados/01/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/04-banco-dados/01/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-packaging/01-math/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/05-packaging/01-math/cmd/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-packaging/02-private-public/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/05-packaging/02-private-public/cmd/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-eventos/pkg/events/event_dispacher.go" beforeDir="false" afterPath="$PROJECT_DIR$/08-eventos/pkg/events/event_dispatcher.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-eventos/pkg/events/event_dispacher_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/08-eventos/pkg/events/event_dispatcher_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
@@ -21,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Go Application" />
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -39,25 +49,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/raulfranca/projetos/go-fc/07-multithreading/05-channels&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;IntelliLang.Configuration&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go Application",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "/Users/raulfranca/projetos/go-fc/07-multithreading/05-channels",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "IntelliLang.Configuration"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/07-multithreading/05-channels" />
@@ -74,7 +84,24 @@
       <recent name="$PROJECT_DIR$/aulas/21-pacotes-01/matematica" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestSuite in go-fc/08-eventos/pkg/events">
+  <component name="RunManager" selected="Go Build.go build github.com/go-fc/08-eventos/cmd/producer">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="go-fc" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/go-fc/08-eventos/cmd/producer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-fc" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/go-fc/08-eventos/cmd/producer" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/08-eventos/cmd/producer/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build go-fc/01-fundaca/09-funcoes-variadicas" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-fc" />
       <working_directory value="$PROJECT_DIR$" />
@@ -84,31 +111,26 @@
       <filePath value="$PROJECT_DIR$/01-fundaca/09-funcoes-variadicas/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-fc/01-fundaca/09-funcoes-variádicas" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build go-fc/08-eventos/cmd/consumer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-fc" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go-fc/01-fundaca/09-funcoes-variádicas" />
+      <package value="go-fc/08-eventos/cmd/consumer" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/01-fundaca/09-funcoes-variádicas/main.go" />
+      <filePath value="$PROJECT_DIR$/08-eventos/cmd/consumer/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go-fc/07-multithreading/08-select/01" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestEventDispatcher_Remove in go-fc/08-eventos/pkg/events" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="go-fc" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/08-eventos/pkg/events" />
+      <parameters value=" -testify.m ^TestEventDispatcher_Remove$" />
+      <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="go-fc/07-multithreading/08-select/01" />
+      <package value="go-fc/08-eventos/pkg/events" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/07-multithreading/08-select/01/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build go-fc/07-multithreading/08-select/02" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-fc" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="go-fc/07-multithreading/08-select/02" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/07-multithreading/08-select/02/main.go" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestSuite\E$/^\QTestEventDispatcher_Remove\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestSuite in go-fc/08-eventos/pkg/events" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -123,13 +145,22 @@
       <pattern value="^\QTestSuite\E$" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="go-fc" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/go-fc/08-eventos/cmd/producer" />
+        <item itemvalue="Go Build.go build go-fc/08-eventos/cmd/consumer" />
+        <item itemvalue="Go Test.TestEventDispatcher_Remove in go-fc/08-eventos/pkg/events" />
         <item itemvalue="Go Test.TestSuite in go-fc/08-eventos/pkg/events" />
         <item itemvalue="Go Build.go build go-fc/01-fundaca/09-funcoes-variadicas" />
-        <item itemvalue="Go Build.go build go-fc/01-fundaca/09-funcoes-variádicas" />
-        <item itemvalue="Go Build.go build go-fc/07-multithreading/08-select/02" />
-        <item itemvalue="Go Build.go build go-fc/07-multithreading/08-select/01" />
       </list>
     </recent_temporary>
   </component>

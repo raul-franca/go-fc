@@ -5,7 +5,10 @@ import (
 	"sync"
 )
 
-var ErrHandlerAlreadyRegistered = errors.New("handler already registered")
+var (
+	ErrHandlerAlreadyRegistered = errors.New("handler already registered")
+	ErrHandlerNameNotFound      = errors.New("handler name not registered")
+)
 
 type EventDispatcher struct {
 	handlers map[string][]EventHandlerInterface
@@ -17,11 +20,15 @@ func NewEventDispatcher() *EventDispatcher {
 	}
 }
 
-func (ev *EventDispatcher) Dispatch(event EventInterface) error {
-	if handlers, ok := ev.handlers[event.GetName()]; ok {
+// Dispatch Com uso de multiThreading Tornar uma função assíncrona.
+func (ed *EventDispatcher) Dispatch(event EventInterface) error {
+	//Verificar se existe algum evento registrado.
+	if handlers, ok := ed.handlers[event.GetName()]; ok {
 		wg := &sync.WaitGroup{}
 		for _, handler := range handlers {
+			//add 1 ao waitGroup
 			wg.Add(1)
+			//Criar uma Threading
 			go handler.Handle(event, wg)
 		}
 		wg.Wait()
@@ -30,6 +37,7 @@ func (ev *EventDispatcher) Dispatch(event EventInterface) error {
 }
 
 func (ed *EventDispatcher) Register(eventName string, handler EventHandlerInterface) error {
+	//Verificar se existe algum evento registrado.
 	if _, ok := ed.handlers[eventName]; ok {
 		for _, h := range ed.handlers[eventName] {
 			if h == handler {
@@ -42,6 +50,7 @@ func (ed *EventDispatcher) Register(eventName string, handler EventHandlerInterf
 }
 
 func (ed *EventDispatcher) Has(eventName string, handler EventHandlerInterface) bool {
+	//Verificar se existe algum evento registrado.
 	if _, ok := ed.handlers[eventName]; ok {
 		for _, h := range ed.handlers[eventName] {
 			if h == handler {
@@ -53,17 +62,23 @@ func (ed *EventDispatcher) Has(eventName string, handler EventHandlerInterface) 
 }
 
 func (ed *EventDispatcher) Remove(eventName string, handler EventHandlerInterface) error {
+	//Verificar se existe algum evento registrado.
 	if _, ok := ed.handlers[eventName]; ok {
 		for i, h := range ed.handlers[eventName] {
 			if h == handler {
-				ed.handlers[eventName] = append(ed.handlers[eventName][:i], ed.handlers[eventName][i+1:]...)
+				ed.handlers[eventName] =
+					//Seleciona o evento encontrado
+					append(ed.handlers[eventName][:i],
+						//Adiciono todos os eventos após o evento encontrado append todos apos o i
+						ed.handlers[eventName][i+1:]...)
 				return nil
 			}
 		}
 	}
-	return nil
+	return ErrHandlerNameNotFound
 }
 
 func (ed *EventDispatcher) Clear() {
+	//Sobre escreve handlers com um Map vazio.
 	ed.handlers = make(map[string][]EventHandlerInterface)
 }

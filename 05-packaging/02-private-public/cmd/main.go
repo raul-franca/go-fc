@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	math02 "go-fc/05-packaging/02-private-public"
+	math02 "github.com/go-fc/05-packaging/02-private-public"
 )
 
 func main() {

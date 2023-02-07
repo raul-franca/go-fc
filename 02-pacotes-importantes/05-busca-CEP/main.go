@@ -9,6 +9,7 @@ import (
 )
 
 // https://transform.tools/json-to-go
+
 type ViaCep struct {
 	Cep         string `json:"cep"`
 	Logradouro  string `json:"logradouro"`
