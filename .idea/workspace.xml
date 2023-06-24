@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16ca385b-33bf-4b22-99e1-f7fcb5931a55" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/coffee-machine/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coffee-machine/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exemplos-externos/senha-bruteForce/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exemplos-externos/senha-bruteForce/senha-letras-numeros-max-6/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,16 +71,7 @@
       <recent name="$PROJECT_DIR$/aulas/21-pacotes-01/matematica" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/raul-franca/go-fc/exemplos-externos/senha-bruteForce">
-    <configuration name="go build github.com/go-fc/08-eventos/cmd/producer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-fc" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/go-fc/08-eventos/cmd/producer" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/08-eventos/cmd/producer/main.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build github.com/raul-franca/go-fc/exemplos-externos/senha-bruteForce/senha-letras-numeros-max-6">
     <configuration name="go build github.com/raul-franca/go-fc/01-fundaca/06-slices/02" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-fc" />
       <working_directory value="$PROJECT_DIR$" />
@@ -110,6 +99,15 @@
       <filePath value="$PROJECT_DIR$/exemplos-externos/senha-bruteForce/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build github.com/raul-franca/go-fc/exemplos-externos/senha-bruteForce/senha-letras-numeros-max-6" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-fc" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/raul-franca/go-fc/exemplos-externos/senha-bruteForce/senha-letras-numeros-max-6" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/exemplos-externos/senha-bruteForce/senha-letras-numeros-max-6/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build github.com/raul-franca/go-fc/exemplos-externos/stringFormatting" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-fc" />
       <working_directory value="$PROJECT_DIR$" />
@@ -121,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/raul-franca/go-fc/exemplos-externos/senha-bruteForce/senha-letras-numeros-max-6" />
         <item itemvalue="Go Build.go build github.com/raul-franca/go-fc/exemplos-externos/senha-bruteForce" />
         <item itemvalue="Go Build.go build github.com/raul-franca/go-fc/01-fundaca/06-slices/02" />
         <item itemvalue="Go Build.go build github.com/raul-franca/go-fc/coffee-machine" />
         <item itemvalue="Go Build.go build github.com/raul-franca/go-fc/exemplos-externos/stringFormatting" />
-        <item itemvalue="Go Build.go build github.com/go-fc/08-eventos/cmd/producer" />
       </list>
     </recent_temporary>
   </component>
